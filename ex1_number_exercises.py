@@ -1,16 +1,22 @@
-
 # Python exercises. You need to write code in spots labelled "TODO:"
-def add_two_numbers(a, b):
+def add_two_numbers(a: int, b: int) -> int:
     # TODO: Write code to add a and b. Your function needs to "return" the correct sum (instead of 0)
 
     return 0
 
-def multiply_two_numbers(a, b):
+
+def subtract_two_numbers(a: int, b: int) -> int:
+    # TODO: Write code to subtract b from a. Your function needs to "return" the correct difference
+
+    return 0
+
+
+def multiply_two_numbers(a: int, b:int) -> int:
     # TODO: Write code to multiply a and b. Your function needs to "return" the correct product (instead of 0)
 
     return 0
 
-def difference_between_numbers(a, b):
+def difference_between_numbers(a: int, b: int) -> int:
     # TODO: Write code to find the difference between a and b. Your function needs to "return" the correct difference
     # Note: The difference should be positive, so check which is bigger
 
@@ -21,6 +27,8 @@ def raise_to_power(base, power):
 
     return 0
 
+
+# Tests. Don't mess with this code, just run it in the terminal by typing "pytest ex1_number_exercises.py"
 def test_add_two_numbers():
     assert add_two_numbers(1, 2) == 3
     assert add_two_numbers(0, 0) == 0
