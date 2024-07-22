@@ -1,3 +1,4 @@
+from time import sleep
 # Python exercises. You need to write code in spots labelled "TODO:"
 def add_two_numbers(a: int, b: int) -> int:
     # TODO: Write code to add a and b. Your function needs to "return" the correct sum (instead of 0)
@@ -31,3 +32,27 @@ def raise_to_power(base, power):
     # TODO: Write code to raise the base to the power.
 
     return 0
+
+
+if __name__ == "__main__":
+    # Run each function with your own input to test them
+    a = input("Enter the value for a: ")
+    b = input("Enter the value for b: ")
+    print("Running add_two_numbers(a, b):")
+    print(f"Output: {add_two_numbers(a, b)}")
+    sleep(0.3)
+    print("Running subtract_two_numbers(a, b):")
+    print(f"Output: {subtract_two_numbers(a, b)}")
+    sleep(0.3)
+    print("Running multiply_two_numbers(a, b):")
+    print(f"Output: {multiply_two_numbers(a, b)}")
+    sleep(0.3)
+    print("Running which_is_greater(a, b):")
+    print(f"Output: {which_is_greater(a, b)}")
+    sleep(0.3)
+    print("Running difference_between_numbers(a, b):")
+    print(f"Output: {difference_between_numbers(a, b)}")
+    sleep(0.3)
+    print("Running raise_to_power(base, power):")
+    print(f"Output: {raise_to_power(a, b)}")
+    
