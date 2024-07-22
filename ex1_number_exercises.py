@@ -11,10 +11,15 @@ def subtract_two_numbers(a: int, b: int) -> int:
     return 0
 
 
-def multiply_two_numbers(a: int, b:int) -> int:
+def multiply_two_numbers(a: int, b: int) -> int:
     # TODO: Write code to multiply a and b. Your function needs to "return" the correct product (instead of 0)
 
     return 0
+
+def which_is_greater(a: int, b: int) -> int:
+    # TODO: Write code to find which number is greater. Your function needs to "return" the greater number
+
+    return a
 
 def difference_between_numbers(a: int, b: int) -> int:
     # TODO: Write code to find the difference between a and b. Your function needs to "return" the correct difference
@@ -41,6 +46,15 @@ def test_multiply_two_numbers():
     assert multiply_two_numbers(0, 0) == 0
     assert multiply_two_numbers(-1, 1) == -1
     assert multiply_two_numbers(-1, -1) == 1
+
+
+def test_which_is_greater():
+    assert which_is_greater(2, 1) == 2
+    assert which_is_greater(0, 0) == 0
+    assert which_is_greater(-1, 1) == 1
+    assert which_is_greater(-1, -1) == -1
+    assert which_is_greater(-10, -20) == -10
+
 
 def test_difference_between_numbers():
     assert difference_between_numbers(1, 2) == 1
