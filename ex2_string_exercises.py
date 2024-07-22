@@ -18,7 +18,16 @@ def reverse_string(s: str):
     return ""
 
 
+def count_the_es(s: str) -> int:
+    # TODO: Write code to count the number of 'e's in the string (upper and lower case).
+    #  Your function needs to return the count
+
+    return 0
+
+###
 # Tests. Don't mess with this code, just run it in the terminal by typing "pytest ex2_string_exercises.py"
+###
+
 def test_hello():
     assert say_hello("Alice") == "Hello, Alice!"
     assert say_hello("Bob") == "Hello, Bob!"
@@ -40,3 +49,13 @@ def test_reverse_string():
     assert reverse_string("Python") == "nohtyP"
     assert reverse_string("") == ""
     assert reverse_string("#!#AbC") == "CbA#!#"
+
+
+
+def test_count_the_es():
+    assert count_the_es("Hello") == 1
+    assert count_the_es("World") == 0
+    assert count_the_es("Earth") == 1
+    assert count_the_es("eeeee") == 5
+    assert count_the_es("EeEeEe") == 6
+
