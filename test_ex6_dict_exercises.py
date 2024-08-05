@@ -5,6 +5,7 @@ def test_create_alphabet_dict():
     assert ex6.create_alphabet_dict(["apple", "banana", "carrot"]) == {'a': 'apple', 'b': 'banana', 'c': 'carrot'}
     assert ex6.create_alphabet_dict(["python", "java", "c"]) == {'p': 'python', 'j': 'java', 'c': 'c'}
     assert ex6.create_alphabet_dict(["hello", "world", "python"]) == {'h': 'hello', 'w': 'world', 'p': 'python'}
+    assert ex6.create_alphabet_dict(["", "!", "22"]) == {'': '', '!': '!', '2': '22'}
 
 # Test for the create_word_length_dict function
 def test_create_word_length_dict():
