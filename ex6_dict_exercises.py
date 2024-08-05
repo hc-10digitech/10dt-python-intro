@@ -21,3 +21,27 @@ def divisible_by_3_dict(n: int) -> dict:
     divisible_dict = {}
 
     return divisible_dict
+
+
+if __name__ == "__main__":
+    # Run each function with your own input to test them
+    in_str = "X"
+    in_lst = []
+    while in_str != "":
+        in_str = input("Enter a list of words separated by a space. Leave empty once done: ")
+        if in_str != "":
+            in_lst.append(in_str)
+    
+    print("Running create_alphabet_dict(list_of_words):")
+    print(create_alphabet_dict(in_lst))
+    sleep(0.3)
+
+    print("Running create_word_length_dict(list_of_words):")
+    print(create_word_length_dict(in_lst))
+    sleep(0.3)
+
+
+    num_in = int(input("Enter a number for divisible by 3: "))
+    print("Running divisible_by_3(n):")
+    print(f"Output: {divisible_by_3_dict(num_in)}")
+    
