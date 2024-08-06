@@ -35,7 +35,7 @@ def difference_between_numbers(a: int, b: int) -> int:
 
 def raise_to_power(base, power):
     # TODO: Write code to raise the base to the power.
-    return a ** b
+    return base ** power
 
 
 if __name__ == "__main__":
