@@ -3,13 +3,13 @@ from time import sleep
 def add_two_numbers(a: int, b: int) -> int:
     # TODO: Write code to add a and b. Your function needs to "return" the correct sum (instead of 0)
 
-    return 0
+    return a + b
 
 
 def subtract_two_numbers(a: int, b: int) -> int:
     # TODO: Write code to subtract b from a. Your function needs to "return" the correct difference
 
-    return 0
+    return a - b
 
 
 def multiply_two_numbers(a: int, b: int) -> int:
