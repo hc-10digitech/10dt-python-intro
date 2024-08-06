@@ -19,7 +19,9 @@ def test_is_even_and_bigger_than_100():
 def test_includes_e():
     assert includes_e("Hello") == True
     assert includes_e("World") == False
-    assert includes_e("Python") == True
+    assert includes_e("Python") == False
+    assert includes_e("Earth") == True
+    assert includes_e("E") == True
 
 def test_is_hot():
     assert hot_cold_mild(35) == "hot"

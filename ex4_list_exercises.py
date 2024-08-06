@@ -3,22 +3,24 @@ from time import sleep
 def length_of_list(lst: list) -> int:
     #TODO: Write code to return the length of the list given as a parameter
 
-    return 0
+    return len(lst)
 
 def get_second_element(lst: list):
     # TODO: Write code to return the second element of the list given as a parameter
-
-    return None
+    if len(lst) < 2:
+        return None
+    return lst[1]
 
 def get_sum_of_elements(lst: list) -> int:
     # TODO: Write code to return the sum (total) of all elements in the list given as a parameter
-    
-    return 0
+    sum = 0
+    for i in lst:
+        sum += i
+    return sum
 
 def get_last_element(lst: list):
     # TODO: Write code to return the last element of the list given as a parameter
-
-    return None
+    return lst[-1] if len(lst) > 0 else None
 
 
 if __name__ == "__main__":
