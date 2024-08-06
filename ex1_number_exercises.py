@@ -15,23 +15,27 @@ def subtract_two_numbers(a: int, b: int) -> int:
 def multiply_two_numbers(a: int, b: int) -> int:
     # TODO: Write code to multiply a and b. Your function needs to "return" the correct product (instead of 0)
 
-    return 0
+    return a * b
 
 def which_is_greater(a: int, b: int) -> int:
     # TODO: Write code to find which number is greater. Your function needs to "return" the greater number
-
-    return a
+    if a > b:
+        return a
+    else: 
+        return b
 
 def difference_between_numbers(a: int, b: int) -> int:
     # TODO: Write code to find the difference between a and b. Your function needs to "return" the correct difference
     # Note: The difference should be positive, so check which is bigger
-
-    return 0
+    if a > b:
+        return a - b
+    else: 
+        return b - a
+    
 
 def raise_to_power(base, power):
     # TODO: Write code to raise the base to the power.
-
-    return 0
+    return a ** b
 
 
 if __name__ == "__main__":
