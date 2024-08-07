@@ -27,7 +27,7 @@ def divisible_by_3_dict(n: int) -> dict:
     # Eg. divisible_by_3_dict(5) -> {1: False, 2: False, 3: True, 4: False, 5: False}
     divisible_dict = {}
     for i in range(1, n+1):
-        if i % 3 == 0:
+        if i % 3 == 0:j
             divisible_dict[i] = True
         else:
             divisible_dict[i] = False

@@ -1,8 +1,7 @@
 from time import sleep
 # Python exercises. You need to write code in spots labelled "TODO:"
 def add_two_numbers(a: int, b: int) -> int:
-    # TODO: Write code to add a and b. Your function needs to "return" the correct sum (instead of 0)
-
+    # Function "returns" the correct sum of a and b
     return a + b
 
 
