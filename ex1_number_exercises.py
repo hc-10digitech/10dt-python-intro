@@ -1,7 +1,7 @@
 from time import sleep
 # Python exercises. You need to write code in spots labelled "TODO:"
 def add_two_numbers(a: int, b: int) -> int:
-    # Function "returns" the correct sum of a and b
+    # Function  "returns" the correct sum of a and b
     return a + b
 
 
@@ -39,8 +39,8 @@ def raise_to_power(base, power):
 
 if __name__ == "__main__":
     # Run each function with your own input to test them
-    a = input("Enter the value for a: ")
-    b = input("Enter the value for b: ")
+    a = int(input("Enter the value for a: "))
+    b = int(input("Enter the value for b: "))
     print("Running add_two_numbers(a, b):")
     print(f"Output: {add_two_numbers(a, b)}")
     sleep(0.3)
