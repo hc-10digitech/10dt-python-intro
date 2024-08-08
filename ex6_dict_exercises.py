@@ -7,7 +7,7 @@ def create_alphabet_dict(list_of_words: list) -> dict:
     for word in list_of_words:
         if word:
             alphabet_dict[word[0]] = word
-        else:
+        else: 
             alphabet_dict[""] = word
     return alphabet_dict
 
