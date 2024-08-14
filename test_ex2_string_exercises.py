@@ -7,7 +7,7 @@ def test_hello():
     assert ex2.say_hello("Alice") == "Hello, Alice!"
     assert ex2.say_hello("Bob") == "Hello, Bob!"
     assert ex2.say_hello("Charlie") == "Hello, Charlie!"
-    assert ex2.say_hello("") == "Hello, David!"
+    assert ex2.say_hello("") == "Hello, !"
 
 
 def test_double_the_string():

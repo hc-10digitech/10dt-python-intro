@@ -2,27 +2,32 @@
 from time import sleep
 def say_hello(name: str) -> str:
     # TODO: Write code to greet the person. Your function needs to return "Hello, <name>!"
-
-    return ""
+    return "Hello, " + name + "!" 
 
 
 def double_the_string(s: str):
     # TODO: Write code to give the same string repeated. Your function needs to return the doubled string
 
-    return ""
+    return s * 2 
 
 
 def reverse_string(s: str):
     # TODO: Write code to reverse the string. Your function needs to return the reversed string
-
-    return ""
+    ans = ""
+    for c in s:
+        ans = c + ans
+        
+    return ans
 
 
 def count_the_es(s: str) -> int:
     # TODO: Write code to count the number of 'e's in the string (upper and lower case).
     #  Your function needs to return the count
-
-    return 0
+    count = 0
+    for c in s:
+        if c.lower() == "e":
+            count = count + 1
+    return count
 
 
 if __name__ == "__main__":
